@@ -1,0 +1,16 @@
+{
+  "name": "cesium-cicd-workshop",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "lint": "eslint src tests"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5"
+  }
+}
