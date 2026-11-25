@@ -17,6 +17,7 @@ app.get('/sum', (req, res) => {
   const a = toNumber(req.query.a);
   const b = toNumber(req.query.b);
 
+  
   if (a === null || b === null) {
     return res.status(400).json({ error: 'Parâmetros "a" e "b" devem ser números' });
   }
